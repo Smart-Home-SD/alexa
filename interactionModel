@@ -1,0 +1,101 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "casa inteligente",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "terminar",
+                        "pode fechar",
+                        "pode parar",
+                        "tchau",
+                        "adeus",
+                        "até mais",
+                        "tudo bem",
+                        "muito obrigado",
+                        "fecha",
+                        "pare"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "QualTemperatura",
+                    "slots": [],
+                    "samples": [
+                        "qual a temperatura neste momento",
+                        "qual a temperatura neste instante",
+                        "qual o valor da temperatura neste instante",
+                        "qual a temperatura agora",
+                        "me fale sobre a temperatura",
+                        "temperatura atual",
+                        "qual a temperatura",
+                        "qual a temperatura atual"
+                    ]
+                },
+                {
+                    "name": "TemGente",
+                    "slots": [],
+                    "samples": [
+                        "tem presença na casa",
+                        "foi detectado presença",
+                        "você detectou presença",
+                        "tem gente na casa",
+                        "tem alguém na casa",
+                        "tem gente na minha casa",
+                        "tem alguém na minha casa"
+                    ]
+                },
+                {
+                    "name": "MelhorarTemperatura",
+                    "slots": [],
+                    "samples": [
+                        "como deixar a temperatura ideal",
+                        "como faz para melhorar a temperatura",
+                        "melhorar temperatura",
+                        "me ajude a melhorar a temperatura",
+                        "como melhorar a temperatura"
+                    ]
+                },
+                {
+                    "name": "NaoEntendi",
+                    "slots": [],
+                    "samples": [
+                        "aumenta aquilo",
+                        "aumenta isso",
+                        "aumenta o que",
+                        "aumenta tal",
+                        "o que é tal",
+                        "o que é isso",
+                        "como faz",
+                        "relatório o que",
+                        "relatório nao sei o que",
+                        "coistal",
+                        "quero tal",
+                        "quero saber",
+                        "pra essa skill",
+                        "pra ver se da default",
+                        "muita porcaria",
+                        "to escrevendo",
+                        "o que ",
+                        "nao sei",
+                        "nao entendi",
+                        "entendeu"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
